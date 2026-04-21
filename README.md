@@ -1,20 +1,27 @@
+---
+title: Plant Disease Detector
+emoji: 🌿
+colorFrom: green
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.35.0
+app_file: app.py
+pinned: false
+---
+
 # Plant Disease Detector
 
-Upload a photo of a plant leaf. The app detects
-if it is healthy or diseased using a ResNet model
-trained on the PlantVillage dataset (54,306 images,
-38 disease classes).
+Upload a photo of a plant leaf to detect diseases using
+a ResNet-50 deep learning model trained on 38 disease classes.
 
 ## Tech stack
 - Python, PyTorch, TorchVision
-- ResNet-50 (pre-trained, transfer learning)
+- ResNet-50 (CNN)
 - Streamlit, Pillow
 
 ## How to run locally
-```
 pip install -r requirements.txt
 streamlit run app.py
-```
 
 ## Live demo
-[View on Hugging Face Spaces](PASTE_YOUR_LINK_HERE)
+[View on Hugging Face Spaces](https://huggingface.co/spaces/vishnuvardhanreddy12/plant-disease-detector/blob/main/README.md)
