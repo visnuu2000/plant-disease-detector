@@ -7,7 +7,7 @@ st.title("Plant Disease Detector")
 st.write("Upload a photo of a plant leaf to detect diseases.")
 
 with st.spinner("Loading model..."):
-    extractor, model = load_model()
+    model = load_model()
 
 st.success("Model loaded!")
 
@@ -22,7 +22,7 @@ if uploaded:
 
     if st.button("Detect disease"):
         with st.spinner("Analysing..."):
-            results = predict(image, extractor, model)
+            results = predict(image, model)
 
         top = results[0]
         st.subheader("Results")
