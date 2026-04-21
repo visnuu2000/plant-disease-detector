@@ -24,4 +24,4 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## Live demo
-[View on Hugging Face Spaces](https://huggingface.co/spaces/vishnuvardhanreddy12/plant-disease-detector/blob/main/README.md)
+https://vishnuvardhanreddy12-plant-disease-detector.hf.space/
